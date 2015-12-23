@@ -37,8 +37,8 @@ func main() {
 	// setup gomniauth
 	gomniauth.SetSecurityKey("some long key")
 	gomniauth.WithProviders(
-		facebook.New("key", "secret", "http://localhost:8080/auth/callback/facebook"),
-		github.New("key", "secret", "http://localhost:8080/auth/callback/github"),
+		facebook.New("1653439198252194", "9e6e2b600cc9578f669892a24b132c2f", "http://localhost:8080/auth/callback/facebook"),
+		github.New("043c7c4c40f9d7bf4778", "58f8c29b19761867661922ea1cb97bd43d5b00a1", "http://localhost:8080/auth/callback/github"),
 		google.New("625130278991-q752b2rpfit512dl119tsfh4shq0f25h.apps.googleusercontent.com", "NxFsba2SFuyeFRuZGVxvXuC7", "http://localhost:8080/auth/callback/google"),
 	)
 
